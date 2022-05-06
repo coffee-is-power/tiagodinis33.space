@@ -15,8 +15,8 @@ switch (window.location.pathname) {
   let Comp = (await Component).default;
   ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-      <img src="/sky.jpg" id="background"/>
-      <img src="/ground.png" id="ground"/>
+      <img src="/src/sky.jpg" id="background"/>
+      <img src="/src/ground.png" id="ground"/>
       <Comp />
     </React.StrictMode>
   )
