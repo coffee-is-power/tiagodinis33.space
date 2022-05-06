@@ -1,4 +1,4 @@
-import './App.css'
+import './main_page.css'
 
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       <div className='center'>
         <div id="i-am">Oi, eu sou</div>
         <h1 id="name">Tiago Dinis</h1>
-        <button id="know-more">Saber Mais</button>
+        <a id="know-more">Saber Mais</a>
       </div>
     </div>
   )
