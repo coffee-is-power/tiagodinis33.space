@@ -36,3 +36,16 @@ body {
   user-select: none;
   pointer-events: none;
 }
+.left {
+  float:left;
+  padding: 100px;
+}
+.right {
+  float: right;
+  padding: 100px;
+}
+.center-text {
+  text-align: center;
+  width:max-content;
+  margin: auto;
+}
