@@ -6,7 +6,7 @@ function App() {
       <div className='center'>
         <div id="i-am">Oi, eu sou</div>
         <h1 id="name">Tiago Dinis</h1>
-        <a id="know-more">Saber Mais</a>
+        <a id="know-more" href="/about-me">Saber Mais</a>
       </div>
     </div>
   )

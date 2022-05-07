@@ -57,6 +57,7 @@
     border-radius: 6px;
     background: #0049D6;
     color: white;
+    text-decoration: none;
   }
   #know-more:hover{
     background: #00359e;
