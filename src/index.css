@@ -25,6 +25,7 @@ body {
   transform-origin: center;
   animation: rotate_sky 480s infinite linear;
   user-select: none;
+  pointer-events: none;
 }
 #ground {
   z-index: -1;
@@ -33,4 +34,5 @@ body {
   height: 50px;
   bottom: 0px;
   user-select: none;
+  pointer-events: none;
 }
