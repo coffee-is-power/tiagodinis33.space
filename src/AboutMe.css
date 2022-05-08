@@ -1,0 +1,45 @@
+.card {
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+h1 {
+    font-weight: 800;
+    font-size: 30pt;
+}
+a {
+    color: cyan;
+    transition: 0.2s color;
+}
+a:hover {
+    color: rgb(0, 119, 255);
+}
+a:active {
+    color: #8effff;
+}
+.flex>div {
+    margin: 100px;
+}
+footer {
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.712);
+}
+li {
+    list-style: none;
+}
+footer > h3 {
+    font-size: 15px;
+    font-weight: 300;
+}
+footer > p {
+    font-size: 10px;
+}
+h1 {
+    color: #05FF00;
+}
+
+h3 {
+    color: #05FF00;
+}

@@ -15,7 +15,7 @@
   #name:before {
     content: "";
     display: block;
-    width: 4vw;
+    width: 2vw;
     height: 6px;
     background: var(--name-lines-color);
     left: 0;
@@ -24,6 +24,7 @@
     border-radius: 10px 0px 0px 10px;
   }
   #name {
+    margin: 30px;
     font-family: "JetBrains Mono";
     font-weight: 800;
     color: var(--name-color);
@@ -35,7 +36,7 @@
   #name:after {
     content: "";
     display: block;
-    width: 4vw;
+    width: 2vw;
     height: 6px;
     background: var(--name-lines-color);
     right: 0;
