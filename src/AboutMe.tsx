@@ -1,10 +1,12 @@
 import "./AboutMe.css";
+import nloginJs from "./nlogin-js.png"
+import tastebinGif from "./tastebin.gif"
 export default function AboutMe(){
     
     return <>
         <section className="flex">
             <div>
-                <img height="200" src="/src/nlogin-js.png"/>
+                <img src={nloginJs} height="200" />
             </div>
             <div>
                 <h1>nLogin JS</h1>
@@ -21,7 +23,7 @@ export default function AboutMe(){
                 <p>Site: <a href="https://tastebin.vercel.app">tastebin.vercel.app</a></p>
             </div>
             <div>
-                <img height="300" src="/src/tastebin.gif"/>
+                <img height="300" src={tastebinGif}/>
             </div>
         </section>
         <section className="flex">
