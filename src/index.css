@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: black;
-    color: white;
+    color: white !important;
 }  
 @keyframes rotate_sky {
   from {
@@ -25,12 +25,28 @@ body {
   transform-origin: center;
   animation: rotate_sky 480s infinite linear;
   user-select: none;
+  pointer-events: none;
 }
 #ground {
   z-index: -1;
   position: fixed;
   width: 100vw;
-  height: 50px;
+  height: 100px;
   bottom: 0px;
   user-select: none;
+  pointer-events: none;
+}
+.flex {
+  display: flex;
+}
+section {
+  padding: 100px;
+}
+.center-text {
+  text-align: center;
+  width:max-content;
+  margin: auto;
+}
+body {
+  font-family: "JetBrains Mono";
 }
