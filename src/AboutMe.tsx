@@ -37,7 +37,7 @@ export default function AboutMe(){
         <footer>
             <h3>Contatos:</h3>
             <p>Email: <a href="mailto:tiagodinis33@gmail.com">tiagodinis33@gmail.com</a></p>
-            <p>Discord: Trustacean#7722</p>
+            <p>Discord: Tiago Dinis#7722</p>
             
         </footer>
 
